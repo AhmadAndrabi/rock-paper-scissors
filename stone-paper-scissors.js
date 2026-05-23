@@ -168,12 +168,12 @@ function main_Game(my_Move) {
 function js_Move_Para(you, computer) {
   document.querySelector(".js-moves-para").innerHTML = `Your move:
       <img
-        src="../icons/${you}-emoji.png"
+        src="icons/${you}-emoji.png"
         alt="Stone emoji"
         class="emoji-icon"
       />
       Computer move:
-      <img src="../icons/${computer}-emoji.png" alt="Stone emoji" class="emoji-icon" />`;
+      <img src="icons/${computer}-emoji.png" alt="Stone emoji" class="emoji-icon" />`;
 } //js_Move_Para ends here.
 
 //js_Result_Para starts here.
